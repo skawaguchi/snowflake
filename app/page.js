@@ -1,3 +1,7 @@
-export default function Page() {
-    return <h1>Hello, Next.js!</h1>
-}
+import SnowflakeApp from '../components/SnowflakeApp'
+import DeprecationNotice from '../components/DeprecationNotice'
+
+export default () => <div>
+  <DeprecationNotice />
+  <SnowflakeApp />
+</div>

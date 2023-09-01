@@ -5,6 +5,7 @@
   "repository": "https://github.com/Medium/eng-growth",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.22.11",
     "d3": "^4.11.0",
     "eslint-config-next": "^13.4.19",
     "next": "^13.4.19",

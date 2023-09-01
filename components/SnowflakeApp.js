@@ -1,3 +1,4 @@
+"use client";
 // @flow
 
 import TrackSelector from '../components/TrackSelector'

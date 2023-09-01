@@ -1,3 +1,5 @@
+"use client";
+
 export default () => (
   <div>
     <style jsx>{`
