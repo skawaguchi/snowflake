@@ -14,7 +14,7 @@ type Props = {
   handleTrackMilestoneChangeFn: (TrackId, Milestone) => void
 }
 
-class NightingaleChart extends React.Component<Props> {
+export class NightingaleChart extends React.Component<Props> {
   colorScale: any
   radiusScale: any
   arcFn: any
@@ -95,5 +95,3 @@ class NightingaleChart extends React.Component<Props> {
     )
   }
 }
-
-export default NightingaleChart

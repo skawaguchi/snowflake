@@ -18,7 +18,7 @@ type Props = {
   milestoneByTrack: MilestoneMap,
 }
 
-class LevelThermometer extends React.Component<Props> {
+export class LevelThermometer extends React.Component<Props> {
   pointScale: any
   topAxisFn: any
   bottomAxisFn: any
@@ -122,5 +122,3 @@ class LevelThermometer extends React.Component<Props> {
     )
   }
 }
-
-export default LevelThermometer

@@ -10,7 +10,7 @@ type Props = {
   setTitleFn: (string) => void
 }
 
-class TitleSelector extends React.Component<Props> {
+export class TitleSelector extends React.Component<Props> {
   render() {
     const titles = eligibleTitles(this.props.milestoneByTrack)
     return <select value={this.props.currentTitle} onChange={e => this.props.setTitleFn(e.target.value)}>
@@ -30,5 +30,3 @@ class TitleSelector extends React.Component<Props> {
     </select>
   }
 }
-
-export default TitleSelector

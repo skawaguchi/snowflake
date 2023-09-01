@@ -9,7 +9,7 @@ type Props = {
   selectPrevTrackFn: () => void
 }
 
-class KeyboardListener extends React.Component<Props> {
+export class KeyboardListener extends React.Component<Props> {
   componentDidMount() {
     window.addEventListener('keydown', (e) => this.handleKeyDown(e)) // TK unlisten
   }
@@ -40,5 +40,3 @@ class KeyboardListener extends React.Component<Props> {
   }
 
 }
-
-export default KeyboardListener

@@ -8,7 +8,7 @@ type Props = {
   milestoneByTrack: MilestoneMap
 }
 
-class PointSummaries extends React.Component<Props> {
+export class PointSummaries extends React.Component<Props> {
   render() {
     const totalPoints = totalPointsFromMilestoneMap(this.props.milestoneByTrack)
 
@@ -87,5 +87,3 @@ class PointSummaries extends React.Component<Props> {
     )
   }
 }
-
-export default PointSummaries

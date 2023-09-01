@@ -1,6 +1,6 @@
 "use client";
 
-export default () => (
+export const DeprecationNotice = () => (
   <div>
     <style jsx>{`
     div {
